@@ -7,14 +7,14 @@
             <li>
                 <p>
                     <b>Location:</b>
-                    Include a complete direction of the cinema and general type of contacts as Phone, Email, WhatsApp, etc.
+                    Include a complete address of the cinemas and general type of contacts as Phone, Email, WhatsApp, etc.
                 </p>
             </li>
 
             <li>
                 <p>
                     <b>Staff:</b>
-                    Personal Information about employees. Moreover, people table will help to add rewards cards in the future.
+                    Personal Information about employees and their roles. Moreover, people table will help to add rewards cards in the future.
                 </p>
             </li>
 
@@ -49,7 +49,7 @@
             <li>
                 <p>
                     <b>Ticket:</b>
-                    Ticket table will contain more than one item. This help to calculate revenue.
+                    Ticket table will contain more than one item. This help to calculate incomes.
                 </p>
             </li>
 
