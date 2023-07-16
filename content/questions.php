@@ -100,6 +100,8 @@ order by total desc;
         </div>
     </div>
 
+    <br>
+
     <div class="col s12 center">
         <a target="_blank" href="outcome/questions.sql" class="waves-effect waves-light btn"><i class="material-icons left">file_download</i>QUERIES</a>
     </div>

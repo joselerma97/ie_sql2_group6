@@ -18,6 +18,8 @@ order by total_tickets desc, staff_name asc;
         ?>
     </div>
 
+    <br><br>
+
     <div class="col s12 center">
         <a target="_blank" href="outcome/extra_question.sql" class="waves-effect waves-light btn"><i class="material-icons left">file_download</i>QUERY</a>
     </div>
