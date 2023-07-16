@@ -1,8 +1,4 @@
-<div class="collapsible-body">
-    <div class="col s12">
-        <p><b>5 Tickets sold per staff using MasterCard in the cinema SP2 (id=4)</b></p>
-        <?php
-        $sql5 = "
+# 5 Tickets sold per staff using MasterCard in the cinema SP2
 select cin.name as cinema_name, concat(peo.name,' ',peo.surname) as staff_name,
 count(ti.ticket_id) as total_tickets
 from ticket_item ti inner join product p on (ti.product_id = p.product_id) 
@@ -13,13 +9,3 @@ inner join people peo on (s.dni = peo.dni) inner join cinema cin on (t.cinema_id
 where c.family_id = 100 and cpi.payment_type = 'MC' and cin.cinema_id = 4 
 group by cin.name, concat(peo.name,' ',peo.surname)
 order by total_tickets desc, staff_name asc;
-                ";
-        draw_sql($sql5,array("cinema_name","staff_name","total_tickets"));
-        ?>
-    </div>
-
-    <div class="col s12 center">
-        <a target="_blank" href="outcome/extra_question.sql" class="waves-effect waves-light btn"><i class="material-icons left">file_download</i>QUERY</a>
-    </div>
-
-</div>
