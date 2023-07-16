@@ -23,7 +23,7 @@
     <div class="nav-wrapper light-green darken-4">
         <img src="img/logo.webp" class="brand-logo right" style="height: 55px" alt="IE Logo">
         <div class="left">
-            SQL2 Group Assignment
+            MBD A1 | SQL2 Group Assignment
         </div>
     </div>
 </nav>
@@ -61,6 +61,11 @@
     <li>
         <div class="collapsible-header"><i class="material-icons">camera_roll</i>5. Extra Question</div>
         <?php include "content/extra_question.php"?>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><i class="material-icons">copyright</i>Source Code</div>
+        <?php include "content/code.php"?>
     </li>
 
 </ul>
