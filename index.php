@@ -1,9 +1,9 @@
 <?php
-
+    include "data/sql.php";
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!--Import Google Icon Font-->
     <link href="css/fonts.googleapis.com_icon_family=Material+Icons.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 </nav>
 
 <div class="col s12 center">
-    <p class="flow-text">Group 6</p>
+    <p class="flow-text">IE Cinema (Group 6)</p>
 </div>
 
 <ul class="collapsible">
@@ -56,6 +56,11 @@
     <li>
         <div class="collapsible-header"><i class="material-icons">question_answer</i>4. Questions</div>
         <?php include "content/questions.php"?>
+    </li>
+
+    <li>
+        <div class="collapsible-header"><i class="material-icons">camera_roll</i>5. Extra Question</div>
+        <?php include "content/extra_question.php"?>
     </li>
 
 </ul>
