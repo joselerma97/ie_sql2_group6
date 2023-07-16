@@ -2,7 +2,7 @@
     <div class="col s12 center">
         <p>The core of the model is the ticket table, which has the following zones:</p>
     </div>
-    <div class="col s12 left">
+    <div class="col s12 left" style="text-align: justify">
         <ul>
             <li>
                 <p>
